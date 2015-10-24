@@ -39,5 +39,5 @@ func main() {
 		}
 		profiles = append(profiles, profs...)
 	}
-	fmt.Printf("coverage: %.1f%%", percentCovered(profiles))
+	fmt.Printf("coverage: %.1f%%\n", percentCovered(profiles))
 }
